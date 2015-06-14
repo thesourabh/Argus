@@ -1,0 +1,33 @@
+
+
+Application: dist   [19:43:33]
+
+
+Application: Start   [19:43:33]
+
+
+Application: Start menu   [19:43:33]
+w
+
+Application: Search Pane   [19:43:33]
+ord 2013
+
+
+Application: Opening - Word   [19:43:33]
+
+
+Application: Word   [19:43:33]
+
+
+Application: Document1 - Word   [19:43:33]
+Hey
+This is a keylogger
+Capture.png
+Thanks.
+Application: Task Manager   [19:43:33]
+
+
+Application: JJILExample - NetBeans IDE 8.0.2   [19:43:33]
+
+
+Application: Task Manager   [19:43:33]

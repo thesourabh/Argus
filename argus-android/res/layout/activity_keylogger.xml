@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin"
+    tools:context="sour.project.be.KeyloggerActivity" >
+
+    <Button
+        android:id="@+id/btnSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date" />
+
+    <Button
+        android:id="@+id/btnGetLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_logs" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvLogViewer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:scrollbars="vertical" />
+    </ScrollView>
+
+</LinearLayout>

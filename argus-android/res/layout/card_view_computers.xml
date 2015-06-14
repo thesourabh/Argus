@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_computer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_vertical_margin"
+    android:layout_marginLeft="@dimen/card_horizontal_margin"
+    android:layout_marginRight="@dimen/card_horizontal_margin"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="1dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/tvComputerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvComputerIp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvComputerName"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvComputerOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvComputerName"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/tvComputerIp"
+            android:layout_toRightOf="@id/tvComputerIp"
+            android:textColor="#0C0"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
