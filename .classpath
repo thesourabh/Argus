@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="argus-android/gen"/>
+	<classpathentry kind="src" path="argus-android/src"/>
+	<classpathentry kind="src" path="argus-desktop/src"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-design-c68146feb8fb723db905f6e328f2e0d8.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-v4-fe73af0ce9667ef665cbc575abd91f48.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-v7-appcompat-6a09ba237563a8c38c2e8939be41e206.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-v7-appcompat-fe1589d8551d1d7a74a27fb6cf415549.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-v7-cardview-bd1dafdb79a3247df6b3185237ce5afb.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/android-support-v7-recyclerview-482ff5c3fb5c340b7ebe4e7422e53370.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/barcodescanner-ccd94690397b7fef4422123b91c551fa.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/cardview-e82d746cb5d84790697fa39d457e6cbb.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/core-3.2.0-eee3a3fed6d3790f580adf5e78aea20e.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/design-90792728972cecba368331c6cf0fc26b.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/recyclerview-d6226a40c702b12be8852e749784326d.jar"/>
+	<classpathentry kind="lib" path="argus-android/bin/dexedLibs/zxing-64addfadf9d39af6f54214b533c644d7.jar"/>
+	<classpathentry kind="lib" path="argus-desktop/libs/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="argus-desktop/libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="argus-desktop/libs/webcam-capture-0.3.10.jar"/>
+	<classpathentry kind="lib" path="argus-desktop/libs/zxing-2.1.jar"/>
+	<classpathentry kind="output" path="argus-android/bin/classes"/>
+</classpath>

@@ -66,6 +66,7 @@ public class NotifyAccess {
 		try {
 			if (serverIp.equals("0.0.0.0"))
 				serverIp = "192.168.43.1";
+			System.out.println(serverIp);
 			client = new Socket(serverIp, 13580);
 			OutputStream os = client.getOutputStream();
 			PrintWriter pw = new PrintWriter(os);
@@ -79,6 +80,7 @@ public class NotifyAccess {
 			nameAtIp = name + "@" + ip;
 			pw.println(nameAtIp);
 			pw.flush();
+			/*
 			File captureFile = new File("Capture.png");
 			try {
 				BufferedImage image = ImageIO.read(captureFile);
@@ -87,6 +89,7 @@ public class NotifyAccess {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+			*/
 			client.close();
 		} catch (IOException e) {
 			e.printStackTrace();

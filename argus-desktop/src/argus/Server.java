@@ -233,9 +233,9 @@ public class Server {
 		System.out.println("Starting Server...");
 		String serverIp;
 		serverIp = checkIpFile();
-		/*
-		 * if (serverIp.equals("0")) QRCode.createIpAddressQR();
-		 */
+		
+		if (serverIp.equals("0")) QRCode.createIpAddressQR();
+		 
 		NotifyAccess.notifyAdmin(serverIp);
 		Tray.addToTray();
 		ServerSocket server = null;
